@@ -1,3 +1,18 @@
+## Java Map and Set
+
+      Map:                                   |             Set:
+      containsValue(Object value)            |             add(E e)
+      get(Object key)                        |             isEmpty()
+      put(K key, V value)                    |             iterator()
+      isEmpty()                              |             size()
+      keySet()                               |             toArray(T[] a)
+      values()                               |             remove(Object o)
+      remove(Object key)                     |
+      remove(Object key, Object value)       |
+      size()
+Example: Map<Character, Integer> map = new HashMap<Character, Integer>();
+         Set<Chracter> set = new HashSet<Character>(); 
+
 # java-programming-cheatsheet
   http://introcs.cs.princeton.edu/java/11cheatsheet/
 
@@ -100,18 +115,6 @@
 ## Java color data type
 ![Alt text](http://introcs.cs.princeton.edu/java/11cheatsheet/images/color-api.png)
 
-## Java Map and Set
-Map: containsKey(Object key)                        Set: contains(Object o)
-     containsValue(Object value)                         add(E e)
-     get(Object key)                                     isEmpty()
-     put(K key, V value)                                 iterator()
-     isEmpty()                                           size()
-     keySet()                                            toArray(T[] a)
-     values()                                            remove(Object o)
-     remove(Object key)
-     remove(Object key, Object value)
-     size()
-Example: Map<Character, Integer> map = new HashMap<Character, Integer>();
-         Set<Chracter> set = new HashSet<Character>();
+
 
 
